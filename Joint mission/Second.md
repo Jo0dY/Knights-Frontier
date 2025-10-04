@@ -36,4 +36,4 @@
 
 ### 기술문서/ 블로그
 ---
-- 카드 뉴스 제작 : [instagram] (https://www.instagram.com/priva.swu?igsh=MTFkMXk2OXhkcm5yNQ%3D%3D&utm_source=qr "인스타그램")
+- [x] 카드 뉴스 제작 : [instagram] (https://www.instagram.com/priva.swu?igsh=MTFkMXk2OXhkcm5yNQ%3D%3D&utm_source=qr "인스타그램")
