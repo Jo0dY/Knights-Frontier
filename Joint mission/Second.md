@@ -16,13 +16,16 @@
 
 
 ### 논문/ 컨퍼런스
+---
 - 사용자 친화적 보안 도구 설계 및 사용성 평가 연구
   
 
 ### CTF/ 워게임
+---
 - 웹해킹(드림핵, webhacking.co.kr, root me 등 문제 풀이)
 - CTF 대회 (2025 Codegate, 2025 Hacktheon Sejong 등 참가)
 
 
 ### 기술문서/ 블로그
-- 카드 뉴스 제작 https://www.instagram.com/priva.swu?igsh=MTFkMXk2OXhkcm5yNQ%3D%3D&utm_source=qr
+---
+- 카드 뉴스 제작 : [instagram] (https://www.instagram.com/priva.swu?igsh=MTFkMXk2OXhkcm5yNQ%3D%3D&utm_source=qr "인스타그램")
