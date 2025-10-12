@@ -54,7 +54,7 @@ MOST(Multimedia Oriented System Transport)
 ### CAN Protocol 구성
 
 <br>
-<p align="center"><img width="311" height="280" alt="Image" src="https://github.com/user-attachments/assets/20ba6a4f-c061-4c8a-a01c-d510112695d6" /></p>
+<p align="center"><img width="731" height="178" alt="Image" src="https://github.com/user-attachments/assets/fade7ad7-473e-4558-b590-351ebfcdc44e" /></p>
 
 <br>
 - CAN 프로토콜은 표준화된 특성 임피던스를 가지고 있는 쌍선(꼬인 두선) 케이블을 통해 데이터를 전송하는데, 이로 인해 각종 외부 노이즈에 강한 쉴드로 보호를 받을 수 있음.
@@ -103,6 +103,10 @@ MOST(Multimedia Oriented System Transport)
 
 
 ### CAN 계층 구조
+<br>
+
+<p align="center"><img width="1856" height="999" alt="Image" src="https://github.com/user-attachments/assets/aa5b28da-ca66-461d-aabd-7e2637e84e1b" /></p>
+
 
 <br>
 CAN에는 여러 종류의 다른 물리 계층이 있다. 
@@ -110,10 +114,13 @@ CAN에는 여러 종류의 다른 물리 계층이 있다.
 물리 계층은 전기적 레벨, 신호 구조, 케이블 임피던스, 최대 보드 (baud) 속도 등 CAN 네트워크의 특정 사항을 분류한다. 
 
 가장 보편적이며 널리 사용되는 물리 계층은 아래와 같다.
+<br>
+<br>
 
 **High-Speed CAN**  
 
 High-speed CAN은 현재까지 가장 보편적으로 사용되는 계층으로, 고속 CAN 네트워크는 두 개의 와이어로 실행되며 최대 1 Mb/s 전송 속도로 통신을 진행한다. 고속 CAN의 다른 명칭으로는 CAN C와 ISO 11898-2가 있다. 일반적인 고속 CAN 디바이스에는 ABS (anti-lock brake systems), 엔진 컨트롤 모듈 그리고 방출 시스템 등이 있다.
+<br>
 
 **저속/내고장(fault-tolerant) CAN 하드웨어** 
 
@@ -123,6 +130,8 @@ High-speed CAN은 현재까지 가장 보편적으로 사용되는 계층으로,
 
 차량의 문을 열고 닫을 때의 강도를 고려하여 차량의 문을 통과해야 하는 와이어는 저속/내고장이다. 또한, 브레이크 등과 같이 강화된 보안 레벨이 요구되는 경우, 저속/내고장 CAN은 그 해결책이 될 수 있다.
 
+<br>
+
 **단일 와이어 CAN 하드웨어** 
 
 단일 와이어 CAN 인터페이스는 최고 33.3 kb/s (고속 모드에서는 88.3 kb/s) 속도로 디바이스와 통신한다. 
@@ -131,15 +140,21 @@ High-speed CAN은 현재까지 가장 보편적으로 사용되는 계층으로,
 
 일반적인 어플리케이션에는 좌석과 거울 조정기 등의 안락 장치가 있다.
 
+<br>
+
 **소프트웨어 선택가능한 CAN 하드웨어**
 
 NI사의 CAN 하드웨어 제품를 사용하여 소프트웨어 선택가능한 CAN 인터페이스를 구성하여 모든 온보드 트랜시버 (고속, 저속/내고장 또는 단일 와이어 CAN)를 사용할 수 있다. 소프트웨어 선택가능한 CAN 하드웨어를 사용하면, 사용자 고유의 외부 CAN 트랜시버를 선택할 수 있다.
 
 <br>
+<br>
 
 ### 메시지 프레임 구조
 
 CAN 프레임은 여러 개의 비트 필드로 구성된다.
+<br>
+
+<p align="center"><img width="1699" height="999" alt="Image" src="https://github.com/user-attachments/assets/cf6c81b0-8b07-4f31-ad15-85f04fe9b954" /></p>
 
 <br>
 
@@ -155,7 +170,8 @@ CAN 프레임은 여러 개의 비트 필드로 구성된다.
 
 
 
-
+<br>
+<br>
 
 ### CAN 통신의 취약점
 
