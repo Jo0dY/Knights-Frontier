@@ -70,7 +70,7 @@ MOST(Multimedia Oriented System Transport)
 
 | SOF | Identifier | Control Field |
 | :---: | :---: | :---: |
-|| EOF | Data Field | CRC ||
+| EOF | Data Field | CRC |
 
 <br>
 <br>
