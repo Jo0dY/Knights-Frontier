@@ -27,11 +27,11 @@ BOB에서 진행한 프로젝트 중 이와 관련하여 좀 더 광범위하게
 <br>
 
 ### Connected System 취약점
-- 아래 그림은 OWASP (Open Web Application Security Project) IoT (Internet of Things) Top 10 2018 목록으로 IoT 시스템에서 가장 흔하고 중요한 10가지 보안 위험을 보여준다.
+- 아래 그림은 OWASP (Open Web Application Security Project) IoT (Internet of Things) Top 10 2018 목록으로 IoT 시스템에서 가장 흔하고 중요한 10가지 보안 위험을 보여준다. ([OWASP 사물 인터넷 | OWASP 재단](https://owasp.org/www-project-internet-of-things/?utm_source=chatgpt.com))
   
 ![image.png](attachment:4a566d83-c533-4f38-82cb-0512f26995fd:image.png)
 
-[OWASP 사물 인터넷 | OWASP 재단](https://owasp.org/www-project-internet-of-things/?utm_source=chatgpt.com)
+
 
 <br>
 
