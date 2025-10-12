@@ -280,7 +280,7 @@ Updating files: 100% (5336/5336), done.
 <br>
 
 - 제공되는 mirai-botnet.txt 파일 내에 (사용자,패스워드) 쌍으로 저장되어 있으므로 패스워드만 남겨 파일을 재생성 함
-- 
+  
 <br>
 <br>
 
@@ -357,13 +357,16 @@ ACCOUNT FOUND: [ssh] Host: 192.168.64.133 User: iotgoatuser Password: 7ujMko0viz
 <img width="650" height="407" alt="Image" src="https://github.com/user-attachments/assets/acffa705-8fe4-424a-b728-b4d61b7308bc" />
 
 <br>
+<br>
 
 
 **nmap 스캔을 통한 서비스 정보 획득**
 
 <br>
 
-**- 전체 포트 스캔하여 오픈된 서비스 확인**
+
+
+**-전체 포트 스캔하여 오픈된 서비스 확인**
 
 <br>
 
@@ -579,7 +582,7 @@ Nmap done: 1 IP address (1 host up) scanned in 66.40 seconds
 
 <br>
 
-**-binwalk를 이용하여 IoTGoat 파일 시스템 추출**
+- binwalk를 이용하여 IoTGoat 파일 시스템 추출
 
 
 ```
@@ -685,7 +688,9 @@ PORT      STATE SERVICE
 ```
 
 <br>
+
 - 서비스가 unknown으로 확인되는 5515 포트를 이용하여 바인드쉘 획득
+
 <br>
 
 
@@ -715,7 +720,9 @@ www
 
 <br>
 
+<br>
 
+### 실습 내용 정리
 
 | 단계 | 설명 | 주요 발견 / 사용 도구 |
 | --- | --- | --- |
