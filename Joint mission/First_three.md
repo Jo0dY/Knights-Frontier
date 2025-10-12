@@ -6,7 +6,12 @@
 
 
 ### 탐구하려는 주제에 대한 간단한 소개
+Controller Area Network (CAN)은 1986년 독일의 Bosch사가 개발한 차량용 네트워크 프로토콜이다.                
+자동차의 전자장치가 증가하면서 복잡해진 배선을 단순화하고 효율적인 통신을 위해 도입되었다.      
+CAN은 높은 신뢰성과 실시간 데이터 전송이 가능하며, 노이즈에 강한 특성을 가지고 있으며, 현재는 거의 모든 자동차에서 표준 통신 프로토콜로 사용되고 있다.             
+산업 자동화 분야에서도 널리 활용되고 있는데, 특히 자동차에서는 엔진 제어, 브레이크 시스템, 에어백 등 안전과 직결된 시스템들의 통신에 사용된다.
 
+[출처][자동차 네트워크 CAN 캔통신 정의와 기본지](https://embeddedai.tistory.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-CAN-%EC%BA%94%ED%86%B5%EC%8B%A0-%EC%A0%95%EC%9D%98%EC%99%80-%EA%B8%B0%EB%B3%B8%EC%A7%80%EC%8B%9D#:~:text=Controller%20Area%20Network%20%28CAN%29%EC%9D%80%201986%EB%85%84%20%EB%8F%85%EC%9D%BC%EC%9D%98%20Bosch%EC%82%AC%EA%B0%80%20%EA%B0%9C%EB%B0%9C%ED%95%9C,%EC%8B%9C%EC%8A%A4%ED%85%9C%2C%20%EC%97%90%EC%96%B4%EB%B0%B1%20%EB%93%B1%20%EC%95%88%EC%A0%84%EA%B3%BC%20%EC%A7%81%EA%B2%B0%EB%90%9C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EB%93%A4%EC%9D%98%20%ED%86%B5%EC%8B%A0%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%A9%EB%8B%88%EB%8B%A4.)
 
 ### 이 주제를 관심 있는 주제로 선정한 이유
 
