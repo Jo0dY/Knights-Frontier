@@ -88,7 +88,9 @@ MOST(Multimedia Oriented System Transport)
 <br>
 
 ### CAN의 물리적 특성
+
 <br>
+
 - **Wired-AND 방식 동작**
     - 두 개의 신호선(CAN_H, CAN_L) 사용한다.
     - **Dominant(0)**: CAN_H = 3.5V, CAN_L = 1.5V (전압차 2V)
@@ -98,6 +100,7 @@ MOST(Multimedia Oriented System Transport)
     - 모든 노드가 Recessive(1)를 보내야만 버스가 Recessive 상태가 된다.
 
 <br>
+
 
 ### CAN 계층 구조
 
@@ -151,7 +154,12 @@ CAN 프레임은 여러 개의 비트 필드로 구성된다.
 | EOF (End of Frame) | 7비트 | 프레임의 끝을 알리는 필드 |
 
 
-###CAN 통신의 취약점
+
+
+
+### CAN 통신의 취약점
+
+
 <br>
 
 CAN 통신의 주요 보안 문제는 노드(ECU)가 이미 공격자에게 장악되었을 경우 발생한다.
