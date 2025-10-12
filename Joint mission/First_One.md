@@ -365,7 +365,7 @@ ACCOUNT FOUND: [ssh] Host: 192.168.64.133 User: iotgoatuser Password: 7ujMko0viz
 <br>
 
 
--전체 포트 스캔하여 오픈된 서비스 확인
+- 전체 포트 스캔하여 오픈된 서비스 확인
 
 <br>
 
