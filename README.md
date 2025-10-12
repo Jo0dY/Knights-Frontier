@@ -18,7 +18,7 @@
    - CAN 네트워크를 통한 자동차 제어: [공동미션1-3](https://github.com/Jo0dY/Knights-Frontier/blob/main/Joint%20mission/First_three.md)
 
 
-- (2) 활동 정리
+- (2) 활동 정리 : [공동미션2](https://github.com/Jo0dY/Knights-Frontier/blob/main/Joint%20mission/Second.md)
 
 <br>
 
