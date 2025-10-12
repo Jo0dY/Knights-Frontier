@@ -41,7 +41,7 @@
 <br>
 <br>
 
-<p align="center"> <img width="891" height="891" alt="Image" src="https://github.com/user-attachments/assets/a1338716-5ca5-49f4-b5a6-ef54e3412715" /></p>
+<p align="center"> <img width="661" height="661" alt="Image" src="https://github.com/user-attachments/assets/a1338716-5ca5-49f4-b5a6-ef54e3412715" /></p>
 
 <br>
 
