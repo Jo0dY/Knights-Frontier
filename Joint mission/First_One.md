@@ -169,14 +169,39 @@ BOB에서 진행한 프로젝트 중 이와 관련하여 좀 더 광범위하게
 
 <br>
 
-실습을 진행하려는 과정에서 환경 구축이 잘 되지 않아서 일단 실습을 진행한 다른 블로그를 참고하여 간접적으로 실습내용에 대해 공부해보는 시간을 가졌다.
+실습을 진행하려는 과정에서 환경 구축이 잘 되지 않아서 일단 실습을 진행한 다른 블로그를 참고하여 간접적으로 실습내용에 대해 공부해보는 시간을 가졌다.         
 IoT 취약점 실습용 환경인 IoTGoat를 사용해 펌웨어 분석 → 인증정보 획득 → 서비스 스캔 → 숨겨진 페이지 탐색 → 쉘 획득까지의 과정을 실습 위주
 
 <br>
 
-**분석 단계 및 주요 발견**
+**<분석 단계 및 주요 발견>**
 
 <br>
+
+<img width="717" height="318" alt="Image" src="https://github.com/user-attachments/assets/3cbf89d2-ec20-4ed7-91f0-33498444587b" />
+
+<br>
+
+```
+$ binwalk -eM IoTGoat-raspberry-pi2.img
+
+Scan Time:     2021-01-14 00:54:42
+Target File:   /home/kali/Desktop/IoTGoat-raspberry-pi2.img
+MD5 Checksum:  9fb28986b3a610fe60f3927bc7dd643b
+Signatures:    391
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+-------------------------------------------------------------------------------
+4253711       0x40E80F        Copyright string: "copyright does *not* cover user programs that use kernel"
+4253946       0x40E8FA        Copyright string: "copyrighted by the Free Software"
+4254058       0x40E96A        Copyright string: "copyrighted by me and others who actually wrote it."
+4254443       0x40EAEB        Copyright string: "Copyright (C) 1989, 1991 Free Software Foundation, Inc."
+4256293       0x40F225        Copyright string: "copyright the software, and"
+...
+...
+29360128      0x1C00000       Squashfs filesystem, little endian, version 4.0, compression:xz, size: 3946402 bytes, 1333 inodes, blocksize: 262144 bytes, created: 2019-01-30 12:21:02 ```
+
+
 
 | 단계 | 설명 | 주요 발견 / 사용 도구 |
 | --- | --- | --- |
@@ -195,7 +220,7 @@ IoT 취약점 실습용 환경인 IoTGoat를 사용해 펌웨어 분석 → 인�
 
 
 
-
+<br>
 
 ### Connected System 취약점 발생 사례 정리
 
