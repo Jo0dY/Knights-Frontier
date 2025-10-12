@@ -1,6 +1,11 @@
 # 💻 Knights Frontier 💻
 
 ---
+<br>
+
+<img width="3064" height="1532" alt="Image" src="https://github.com/user-attachments/assets/5af15951-b555-4f12-9c2c-bb72ac381bea" />
+
+<br>
 
 ## 스터디 기록
 
