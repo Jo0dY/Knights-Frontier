@@ -63,8 +63,11 @@
 <br>
 [CVE-2023-6318 - Exploits & Severity - Feedly](https://feedly.com/cve/CVE-2023-6318)
 
+<br>
+
 <p align="center"><img width="311" height="280" alt="Image" src="https://github.com/user-attachments/assets/20ba6a4f-c061-4c8a-a01c-d510112695d6" /></p>
 
+<br>
 <br>
 
 **CVE-2023-6318 : OS 명령에 사용된 특수 요소의 부적절한 무력화('OS 명령 삽입')(CWE-78)**
@@ -76,7 +79,24 @@
    - 높은 권한(루트 액세스)을 획득하면 공격자는 잠재적으로 연결된 다른 시스템으로 전환하거나 장치에 저장된 민감한 정보를 유출할 수 있다.
      
 <br>
+<br>
+
 [CVE-2023-6320 - Exploits & Severity - Feedly](https://feedly.com/cve/CVE-2023-6320)
 
+<br>
+
+<p align="center"><img width="278" height="278" alt="Image" src="https://github.com/user-attachments/assets/c66ce6c9-8849-4f73-a38b-b44ea3decdcf" /></p>
+<br>
+
+**CVE-2023-6320 : OS 명령에 사용된 특수 요소의 부적절한 무력화('OS 명령 삽입')(CWE-78)**
+- 게시 : 2024년 4월 9일
+- 요약 : webOS 버전 5 및 6의 com.webos.service.connectionmanager/tv/setVlanStaticAddress 엔드포인트에 명령 삽입 취약성이 존재한다. 공격자에 의해 제작된 일련의 요청으로 인해 dbus 사용자로 명령이 실행될 수 있으며, 공격자는 이 취약성을 트리거하기 위해 인증된 요청을 할 수 있다. 이는 OLED55CXPUA에서 실행되는 webOS 5.5.0 - 04.50.51 및 OLED48C1PUB에서 실행되는 webOS 6.3.3-442(kisscurl-kinglake) - 03.36.50에 영향을 미친다.
+  
+- 영향
+   - 이 취약점을 통해 인증된 액세스 권한을 가진 공격자는 영향을 받는 LG webOS 시스템에서 루트 사용자로 명령을 실행할 수 있다.
+   - 이로 인해 민감한 데이터에 대한 무단 액세스, 시스템 설정 수정, 맬웨어 설치 또는 서비스 중단을 포함하여 완전한 시스템 손상이 발생할 수 있다.
+   - 높은 권한(루트 액세스)을 획득하면 공격자는 잠재적으로 연결된 다른 시스템으로 전환하거나 장치에 저장된 민감한 정보를 유출할 수 있다.
+
+<br>
 
 ### 주제를 조사하고나서 느낌 점
