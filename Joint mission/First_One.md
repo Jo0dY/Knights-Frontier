@@ -6,7 +6,7 @@
 
 <br>
 
-### 📖 탐구하려는 주제에 대한 간단한 소개
+### 📖  탐구하려는 주제에 대한 간단한 소개
 - '커넥티드 시스템(Connected System)'은 사물인터넷(IoT) 기술을 바탕으로 여러 기기, 시스템, 인프라 등이 서로 통신하며 정보를 주고받고 연동하는 것을 말한다.
 - 주요 특징은 다음과 같다.
     - 개별 기기나 시스템이 서로 데이터를 주고받으면서 소통
@@ -15,7 +15,7 @@
  
 <br>
 
-### 📖 이 주제를 관심 있는 주제로 선정한 이유
+### 📖  이 주제를 관심 있는 주제로 선정한 이유
 자동차(커넥티드 카)나 IoT 기반기기 등 Connected System과 관련한 산업이 늘어나고 있다.
 IoT 기기 시장에 대한 규모는 매년 증가하고 있으며, IoT 기기 생산과 사용량이 늘어남에 따라 이에 대한 보안 위협도 증가하고 있다.
 
@@ -25,11 +25,13 @@ BOB에서 진행한 프로젝트 중 이와 관련하여 좀 더 광범위하게
 평소 관심있는 분야이기에 졸업프로젝트에서는 개발에 초점을 뒀다면, 이번 미션을 통해서는 Connected System 과 관련한 취약점에 초점을 두고 공부하고, 기회가 된다면 실습도 진행하면서 IoT 보안과 관련한 좀 더 심도 깊은 이해를 할 수 있는 기회라고 생각했기 때문에 해당 주제를 선정하게 되었다.
 
 <br>
+<br>
+
 
 ### Connected System 취약점
 - 아래 그림은 OWASP (Open Web Application Security Project) IoT (Internet of Things) Top 10 2018 목록으로 IoT 시스템에서 가장 흔하고 중요한 10가지 보안 위험을 보여준다. ([OWASP 사물 인터넷 | OWASP 재단](https://owasp.org/www-project-internet-of-things/?utm_source=chatgpt.com))
   
-![image.png](attachment:4a566d83-c533-4f38-82cb-0512f26995fd:image.png)
+![owasp.png](attachment:4a566d83-c533-4f38-82cb-0512f26995fd:image.png)
 
 
 
