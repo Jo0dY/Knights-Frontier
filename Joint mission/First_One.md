@@ -185,7 +185,7 @@ IoT 취약점 실습용 환경인 IoTGoat를 사용해 펌웨어 분석 → 인�
 
 1. 펌웨어 내 하드코딩 되어있는 사용자 인증정보 획득하기
 
-    1) binwalk를 이용하여 IoTGoat 파일 시스템 추출
+1) binwalk를 이용하여 IoTGoat 파일 시스템 추출
    
 ```
 $ binwalk -eM IoTGoat-raspberry-pi2.img
@@ -204,7 +204,11 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 4256293       0x40F225        Copyright string: "copyright the software, and"
 ...
 ...
-29360128      0x1C00000       Squashfs filesystem, little endian, version 4.0, compression:xz, size: 3946402 bytes, 1333 inodes, blocksize: 262144 bytes, created: 2019-01-30 12:21:02```
+29360128      0x1C00000       Squashfs filesystem, little endian, version 4.0, compression:xz, size: 3946402 bytes, 1333 inodes, blocksize: 262144 bytes, created: 2019-01-30 12:21:02
+
+```
+
+<br>
 
 
 
