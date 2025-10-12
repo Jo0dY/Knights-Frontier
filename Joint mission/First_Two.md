@@ -6,7 +6,6 @@
 <br>
 
 ### 탐구하려는 주제에 대한 간단한 소개
-<br>
 
 ![Image](https://github.com/user-attachments/assets/f0355fb1-2652-43dd-b439-dce5c2a3dd4f) 
 
