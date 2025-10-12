@@ -22,6 +22,8 @@ CAN은 높은 신뢰성과 실시간 데이터 전송이 가능하며, 노이즈
 
 [출처][자동차 네트워크 CAN 캔통신 정의와 기본지식](https://embeddedai.tistory.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-CAN-%EC%BA%94%ED%86%B5%EC%8B%A0-%EC%A0%95%EC%9D%98%EC%99%80-%EA%B8%B0%EB%B3%B8%EC%A7%80%EC%8B%9D#:~:text=Controller%20Area%20Network%20%28CAN%29%EC%9D%80%201986%EB%85%84%20%EB%8F%85%EC%9D%BC%EC%9D%98%20Bosch%EC%82%AC%EA%B0%80%20%EA%B0%9C%EB%B0%9C%ED%95%9C,%EC%8B%9C%EC%8A%A4%ED%85%9C%2C%20%EC%97%90%EC%96%B4%EB%B0%B1%20%EB%93%B1%20%EC%95%88%EC%A0%84%EA%B3%BC%20%EC%A7%81%EA%B2%B0%EB%90%9C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EB%93%A4%EC%9D%98%20%ED%86%B5%EC%8B%A0%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%A9%EB%8B%88%EB%8B%A4.)
 
+<br>
+
 ### 이 주제를 관심 있는 주제로 선정한 이유
 <br>
 
@@ -48,15 +50,22 @@ CAN은 높은 신뢰성과 실시간 데이터 전송이 가능하며, 노이즈
 <br>
 <br>
 
-LIN (Local Interconnect Network)
+**LIN (Local Interconnect Network)**
+<br>
 
-→ 다양한 기능이 필요하지 않은 분야에 저렴하면서 효율적인 통신을 제공 , 실제로 차량 시스템에서 베터리 센서, 제너레이터, 주차감지 시스템, 도어 제어 모듈 등에서 사용됨
+→ 다양한 기능이 필요하지 않은 분야에 저렴하면서 효율적인 통신을 제공 , 실제로 차량 시스템에서 베터리 센서, 제너레이터, 주차감지 시스템, 도어 제어 모듈 등에서 사용된다.
 
-FlexRay
+<br>
+
+**FlexRay**
+<br>
 
 → CSMA(Carrier Sense Multiple Access) 방식을 사용하는 CAN과 다르게 FlexRay는 TDMA(Time Division Multiple Access) 방식을 사용하는데, 각 노드가 유효한 상태가 되면 전송하는 것이 아닌 정해진 시간에 메시지를 전송하기때문에 통신 속도를 향상 시킬 수 있음 
 
-MOST(Multimedia Oriented System Transport)
+<br>
+
+**MOST(Multimedia Oriented System Transport)**
+<br>
 
 → 차량 멀티미디어 장치를 위한 광통신 규약으로 대용량 멀티미디어 자료를 초고속으로 전송할 수 있음 
 
@@ -70,6 +79,7 @@ MOST(Multimedia Oriented System Transport)
 - 통신선은 꼬인 두선이라고 표현한 2개의 선으로 활용된다.       
 - 두 구리선의 전위차가 0V일때 0, 0V가 아닐때 1로 Binary Digit의 교환으로서 정보를 주고 받는다.       
 
+<br>
 <br>
 
 ### CAN Protocol 구성
@@ -185,6 +195,8 @@ CAN 프레임은 여러 개의 비트 필드로 구성된다.
 <p align="center"><img width="1699" height="999" alt="Image" src="https://github.com/user-attachments/assets/cf6c81b0-8b07-4f31-ad15-85f04fe9b954" /></p>
 
 <br>
+<br>
+
 
 | 필드명 | 크기 | 설명 |
 | --- | --- | --- |
@@ -201,13 +213,13 @@ CAN 프레임은 여러 개의 비트 필드로 구성된다.
 <br>
 <br>
 
-### CAN 통신의 취약점
+### CAN 통신의 취약점 종류
 
 CAN 통신의 주요 보안 문제는 노드(ECU)가 이미 공격자에게 장악되었을 경우 발생한다.
 
 <br>
 
-**데이터 프레임 위변조**
+**- 데이터 프레임 위변조**
 
 - CAN Bus에서는 송신자 인증이 없기 때문에 공격자가 ECU를 조작하여 임의의 메시지를 전송할 수 있다.    
 - 조향, 브레이크, 가속 등의 중요한 ECU 메시지를 조작하면 자동차 제어권을 탈취할 수 있다.     
@@ -215,7 +227,8 @@ CAN 통신의 주요 보안 문제는 노드(ECU)가 이미 공격자에게 장�
 
 <br>
 
-**Bus-Off 공격**
+
+**- Bus-Off 공격**
 
 - CAN 표준의 설계 결함을 이용한 공격 방식이다.    
 - 특정 ECU를 반복적으로 충돌시키면서 TEC 값을 증가시켜 네트워크에서 강제로 제거한다.     
@@ -226,7 +239,7 @@ CAN 통신의 주요 보안 문제는 노드(ECU)가 이미 공격자에게 장�
   
 <br>
 
-**공격 탐지 어려움**
+**-공격 탐지 어려움**
 
 <br>
 
