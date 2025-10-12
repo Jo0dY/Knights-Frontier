@@ -15,7 +15,7 @@
 
 
 ### 차량 내부 통신 정리 및 비교
-
+<br>
 <br>
 
 | 구분 | LIN | CAN | MOST | FlexRay | Ethernet |
@@ -26,6 +26,7 @@
 | 주요 적용 시스템 | 저가형 센서      편의 센서 | 파워 트레인           섀시                     편의장치 | AV | 파워 트레인         편의장치 | 멀티미디어                카메라                         인포테인먼트 |
 | 설치 비용 | 적음 | 중간 | 높음 | 높음 | 높음 |
 
+<br>
 <br>
 
 LIN (Local Interconnect Network)
@@ -42,7 +43,7 @@ MOST(Multimedia Oriented System Transport)
 <br>
 
 ### CAN의 개념 및 특징 
-
+<br>
 <br>
 - 차량 및 산업용 제어 시스템에서 사용되는 통신 프로토콜로 각 모듈 간 데이터 통신에 이용된다.        
 - CAN 은 차량 내 모든 EUC가 두 개의 통신선 (CAN_H,CAN_L)을 공유하며, 각 ECU는 고유한 ID를 가진 메시지를 주고받는다.       
@@ -57,16 +58,18 @@ MOST(Multimedia Oriented System Transport)
 <p align="center"><img width="731" height="178" alt="Image" src="https://github.com/user-attachments/assets/fade7ad7-473e-4558-b590-351ebfcdc44e" /></p>
 
 <br>
+<br>
 - CAN 프로토콜은 표준화된 특성 임피던스를 가지고 있는 쌍선(꼬인 두선) 케이블을 통해 데이터를 전송하는데, 이로 인해 각종 외부 노이즈에 강한 쉴드로 보호를 받을 수 있음.                    
 - CAN 통신 프로토콜에서는 프레임이 데이터의 전송단위고, 하나의 프레임은 총 아래 6가지로 구성               
 
 <br>
+<br>
 
 | SOF | Identifier | Control Field |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | EOF | Data Field | CRC |
 
-
+<br>
 <br>
 언급된 것처럼, CAN 통신 프로토콜에서는 메시지를 식별하는 용도로 식별자를 이용하는데, 이 식별자(Identifier)은 11 또는 29비트의 길이를 가지고 있다.    
 
@@ -79,7 +82,7 @@ MOST(Multimedia Oriented System Transport)
 ### CAN Protocol 특징 정리
 
 <br>
-
+<br>
 
 | 고속통신 | 빠른 데이터 전송 지원 |
 | --- | --- |
