@@ -8,8 +8,9 @@
 
 ### 📖  탐구하려는 주제에 대한 간단한 소개
 <br>
+<br>
 
-![Image](https://github.com/user-attachments/assets/f0355fb1-2652-43dd-b439-dce5c2a3dd4f)
+<p align="center">![Image](https://github.com/user-attachments/assets/f0355fb1-2652-43dd-b439-dce5c2a3dd4f)</p>
 
 - 웹OS는 3000과 3001번 포트를 통해 스마트폰의 ‘씽큐(ThinkQ)’ 앱과 연동되며, 이를 통해 사용자들은 TV를 제어할 수 있게 된다.
 - 앱에 장비를 연결시킬 때 핀 코드를 입력해야 하는데, 이 때 오류가 발생하면 핀 인증 과정을 회피할 수 있게되면서 공격자는 사용자 프로파일을 임의로 생성할 수 있게 되고, 높은 권한을 부여하는 게 가능해진다.
@@ -25,11 +26,13 @@
 주로 한국, 홍콩, 미국, 스웨덴, 핀란드에서 취약한 장비들이 발견되고 있다. 
 
 <br>
+<br>
 
 [출처]
 
 [LG 스마트TV의 웹OS에서 여러 개의 취약점 발견돼 | 보안뉴스](https://m.boannews.com/html/detail.html?idx=128732)
 
+<br>
 
 ### 📖  이 주제를 관심 있는 주제로 선정한 이유
 우리 주변에서 쉽게 사용되는 가전제품들, 우리 일상에 자연스럽게 스며들어있기때문에 생각보다 많은 공격의 대상이 되고 있다.
@@ -44,9 +47,11 @@ LG전자는 우리나라를 대표하는 기업 중 하나이기때문에
 ### 주제에 맞는 프로젝트 과정 작성해보기
 
 <br>
+<br>
 
-<img width="891" height="891" alt="Image" src="https://github.com/user-attachments/assets/a1338716-5ca5-49f4-b5a6-ef54e3412715" />
+<p align="center"> <img width="891" height="891" alt="Image" src="https://github.com/user-attachments/assets/a1338716-5ca5-49f4-b5a6-ef54e3412715" /></p>
 
+<br>
 <br>
 
 1. 사전 조사 & 범위 정의하기 : 대상 선정, 공개된 CVE 조사, 법적·윤리 점검하기
@@ -56,14 +61,22 @@ LG전자는 우리나라를 대표하는 기업 중 하나이기때문에
 5. 에뮬레이션·동적분석하기 : Firmadyne/QEMU로 펌웨어 에뮬레이션 → 서비스 재현 → 취약 엔드포인트에 대한 악용 시도(인증·입력검증 우회 등) 
 6. 취약점 증명(PoC) 개발하기 : 안전한 에뮬레이터/격리 환경에서 PoC 스크립트·패킷 시퀀스 개발 
 7. 완화·권고안 작성 & 리포팅 : 패치·구성변경·권장 정책(관리 포트 차단, 업데이트 정책, 관리자 인증 강화, 최소 권한) 제안
-
+<br>
 <br>
 
 ### 관련된 취약점이 있는지 찾아보기
+<br>
 
+[취약점 정보 포털 | 보안뉴스](https://knvd.krcert.or.kr/detailSecNo.do?IDX=6159)
 
+<br>
 
 ### 취약점에 대해 공부해보기
+<br>
+[CVE-2023-6318 - Exploits & Severity - Feedly](https://feedly.com/cve/CVE-2023-6318)
+
+<br>
+[CVE-2023-6320 - Exploits & Severity - Feedly](https://feedly.com/cve/CVE-2023-6320)
 
 
 ### 주제를 조사하고나서 느낌 점
