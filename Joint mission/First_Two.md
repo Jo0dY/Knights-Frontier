@@ -32,9 +32,7 @@
 <br>
 <br>
 
-[출처]
-
-[LG 스마트TV의 웹OS에서 여러 개의 취약점 발견돼 | 보안뉴스](https://m.boannews.com/html/detail.html?idx=128732)
+[출처] [LG 스마트TV의 웹OS에서 여러 개의 취약점 발견돼 | 보안뉴스](https://m.boannews.com/html/detail.html?idx=128732)
 
 <br>
 
@@ -68,8 +66,6 @@
 <br>
 
 ### 관련된 취약점이 있는지 찾아보기
-<br>
-
 [취약점 정보 포털 | 보안뉴스](https://knvd.krcert.or.kr/detailSecNo.do?IDX=6159)
 
 <br>
