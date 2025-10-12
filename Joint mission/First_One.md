@@ -1,4 +1,4 @@
-<img width="3064" height="1532" alt="Image" src="https://github.com/user-attachments/assets/5af15951-b555-4f12-9c2c-bb72ac381bea" />
+<img width="2064" height="1032" alt="Image" src="https://github.com/user-attachments/assets/5af15951-b555-4f12-9c2c-bb72ac381bea" />
 <br>
 
 # 🌙 Knights Frontier 공동 미션 (1)-1
