@@ -63,14 +63,14 @@ CAN은 높은 신뢰성과 실시간 데이터 전송이 가능하며, 노이즈
 **FlexRay**
 <br>
 
-→ CSMA(Carrier Sense Multiple Access) 방식을 사용하는 CAN과 다르게 FlexRay는 TDMA(Time Division Multiple Access) 방식을 사용하는데, 각 노드가 유효한 상태가 되면 전송하는 것이 아닌 정해진 시간에 메시지를 전송하기때문에 통신 속도를 향상 시킬 수 있음 
+→ CSMA(Carrier Sense Multiple Access) 방식을 사용하는 CAN과 다르게 FlexRay는 TDMA(Time Division Multiple Access) 방식을 사용하는데, 각 노드가 유효한 상태가 되면 전송하는 것이 아닌 정해진 시간에 메시지를 전송하기때문에 통신 속도를 향상 시킬 수 있다.        
 
 <br>
 
 **MOST(Multimedia Oriented System Transport)**
 <br>
 
-→ 차량 멀티미디어 장치를 위한 광통신 규약으로 대용량 멀티미디어 자료를 초고속으로 전송할 수 있음 
+→ 차량 멀티미디어 장치를 위한 광통신 규약으로 대용량 멀티미디어 자료를 초고속으로 전송할 수 있다.     
 
 <br>
 <br>
